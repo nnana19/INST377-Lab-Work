@@ -7,6 +7,8 @@
     background: #63a0a0;
     padding: 10px;
     font-weight: bold;
+    font-size: large;
+
 }
 .navigation_menu{
     background: #6793d4;
@@ -58,6 +60,7 @@
 .group_project, .github{
     margin-top: auto;
     margin-bottom: 15px;
+
 }
 .number_grid_container{
     display: flex;
