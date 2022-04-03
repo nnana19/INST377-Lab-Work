@@ -3,7 +3,7 @@ Steps to deploy changes...
 ```
 git add .
 
-git commit -m "message goes here"
+git commit -m "description"
 
 git push
 ```
