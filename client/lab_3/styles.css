@@ -1,1 +1,104 @@
 
+*{
+    margin: 0;
+    padding: 0;
+}
+.name_header{
+    background: #63a0a0;
+    padding: 10px;
+    font-weight: bold;
+    font-size: x-large;
+
+}
+.navigation_menu{
+    background: #6793d4;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.menu{
+    border: 1px solid white;
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.date{
+    margin-right: auto;
+}
+.database_demos{
+    border-left: 1px solid white;
+    padding-left: 15px;
+
+}
+.mainpage_link{
+    margin-left: 15px;
+}
+.menu a:link,
+.menu a:visited,
+.menu a:hover,
+.menu a:active{
+    color:white;
+    text-decoration: none;
+}
+.logo_container{
+    background: #dae8fc;
+    display:flex;
+    justify-content: center;
+
+}
+.logo{
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.group_project, .github{
+    margin-top: auto;
+    margin-bottom: 15px;
+
+}
+.number_grid_container{
+    display: flex;
+    justify-content: center;
+}
+.number_grid{
+    width: 900px;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+.first_number{
+    order:1;
+}
+.last_number{
+    order: -1;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_one{
+    background: #6793d4;
+    flex: 1;
+    width: 300px;
+}
+.footer_two{
+    background: #dae8fc;
+    flex: 2;
+    width: 900px;
+}
+.footer_three{
+    background: #6793d4;
+    flex: 1;
+    width: 300px;
+}
+.footer_item{
+    height: 200px;
+}
