@@ -1,5 +1,15 @@
 const dataHandler = (arr) => {
-  console.table(arr); // this is called "dot notation"
+  // console.table(arr); // this is called "dot notation"
+  let rand = Math.floor(Math.random() * arr.length);
+  rand = rand >= 15 ? rand - 15 : rand;
+  let slice = arr.slice(rand, rand + 15);
+  console.log(slice)
+
+  const list = document.querySelector('#resto-list')
+  slice = slice.map((x) => x.name)
+  slice = [...new Set(slice)]
+
+  list.innerHTML = slice.map((x) => `<li>${x}</li>`).join('');
 }
 
 async function mainEvent() {

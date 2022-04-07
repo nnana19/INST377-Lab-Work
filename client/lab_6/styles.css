@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1pm solid grey;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: ‘Segoe UI’, Candara, ‘Bitstream Vera Sans’, ‘DejaVu Sans’,
+      ‘Bitsream Vera Sans’, ‘Trebuchet MS’, Verdana, ‘Verdana Ref’, sans-serif;
+    background-color: darkslategray;
+  
+  }
+  
+  .main-container{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .row-standard{
+    display: flex;
+  }
+  
+  .row-centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Page Layout */
+  .columns {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .wrapper {
+    display: flex;
+  }
+  .container {
+    max-width: 960px;
+    margin-top: 25px;
+  }
+  
+  
+  /* colors */
+  .bg-yellow{
+    background: rgb(112, 112, 3)
+  }
